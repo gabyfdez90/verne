@@ -63,7 +63,10 @@ ul {
 } 
 
 button{
-    border-radius: 50%;
+    font-family: 'Poppins';
+    background-color: rgba(155, 9, 132, .7);
+    color:#EEF0F2;
+    border-radius: 60%;
     height: 8vh;
     width: 8vw;
     font-size: 4vh;
