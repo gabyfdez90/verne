@@ -1,21 +1,32 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap);
-
+*{
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
 body{
     background-color: rgb(10, 17, 28);
     color: #EEF0F2;
     font-family: 'Poppins';
+    margin: 30px 40px;
 }
 
 main {
     display: grid;
     grid-template-columns: 2;
     grid-template-rows: 6;
+    
 }
 
 .company{
     display: flex;
     align-items: center;
     grid-column: 1;
+    margin-left: 10px;
+
 }
 
 .slogan{
@@ -31,6 +42,8 @@ h1 {
 .logo {
     width: 200px;
     height: 200px;
+    border-radius: 50%;
+    
 }
 
 nav {
@@ -48,3 +61,11 @@ ul {
     padding: 5px;
     
 } 
+
+button{
+    border-radius: 50%;
+    height: 8vh;
+    width: 8vw;
+    font-size: 4vh;
+
+}
