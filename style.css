@@ -1,6 +1,12 @@
 body{
     background-color: rgb(10, 17, 28);
     color: #EEF0F2;
+    font-family: 'Poppins';
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-style: bold;
 }
 
 .logo {
