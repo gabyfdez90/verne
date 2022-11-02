@@ -17,14 +17,14 @@ body{
 main {
     display: grid;
     grid-template-columns: 2;
-    grid-template-rows: 6;
-    
+    grid-template-rows: 7;
 }
 
 .company{
     display: flex;
     align-items: center;
     grid-column: 1;
+    grid-row:1;
     margin-left: 10px;
 
 }
@@ -40,18 +40,18 @@ h1 {
 }
 
 .logo {
-    width: 200px;
-    height: 200px;
+    width: 15vh;
+    height: 15vh;
     border-radius: 50%;
     
 }
 
 nav {
     grid-column: 2;
+    align-content: center;
 }
 
 ul {
-    list-style: none;
     display: flex;
     padding: 10px;
     justify-content: space-around;
@@ -59,8 +59,12 @@ ul {
 
 .nav-item {
     padding: 5px;
-    
 } 
+
+.text-button1{
+    grid-column:1;
+    grid-row-start: 3;
+}
 
 button{
     font-family: 'Poppins';
@@ -70,5 +74,14 @@ button{
     height: 8vh;
     width: 8vw;
     font-size: 4vh;
+}
+.world-area {
+    grid-column: 2;
+    grid-row: 2 / 5;
+    display:grid;
+}
 
+.world {
+    height:60vh;
+    width:60vh;
 }
