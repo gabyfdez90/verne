@@ -49,6 +49,10 @@ h1 {
     margin-left: 110px;
 }
 
+a {
+    color:#EEF0F2;
+}
+
 .item{
     grid-column:1;
     grid-row-start: 3;
