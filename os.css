@@ -34,10 +34,6 @@ main {
     align-content: center;
 }
 
-h1 {
-    font-family: 'Poppins';
-    font-style: bold;
-}
 
 .logo {
     width: 15vh;
@@ -45,44 +41,28 @@ h1 {
     border-radius: 50%;
     
 }
+ 
 
-nav {
-    grid-column: 2;
-    align-content: center;
-}
-
-ul {
-    display: flex;
-    padding: 10px;
-    justify-content: space-around;
-}
-
-.nav-item {
-    padding: 5px;
-} 
-
-.text-button1{
+.item{
     grid-column:1;
     grid-row-start: 3;
+    font-family: 'Poppins';
+    font-family: 'Poppins';
+    font-style: bold;
+    padding: 10%;
+    text-align: justify
 }
 
-button{
-    font-family: 'Poppins';
-    background-color: rgba(155, 9, 132, .7);
-    color:#EEF0F2;
-    border-radius: 60%;
-    height: 8vh;
-    width: 8vw;
-    font-size: 4vh;
-}
-.world-area {
+.teletransp-area {
     grid-column: 2;
     grid-row: 2 / 5;
     display:grid;
 }
 
-.world {
+.teletransp {
     height:60vh;
     width:60vh;
-}
+    
 
+    ;
+}
