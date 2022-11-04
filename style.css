@@ -92,6 +92,7 @@ button{
     height: 8vh;
     width: 8vw;
     font-size: 3vh;
+    cursor: pointer;
 }
 .world-area {
     grid-column: 2/3;
